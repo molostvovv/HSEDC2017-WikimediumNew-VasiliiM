@@ -1,0 +1,270 @@
+@media all and (max-width: 1460px) {
+  .general {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 1180px) {
+
+  .part1, .part2, .part3, .part4 {
+    width: 1180px;
+    height: 568px;
+  }
+
+   .part1 h2, .part2 h2, .part3 h2 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .part1 p, .part2 p, .part3 p {
+    margin-top: 18px;
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .part4 h2 {
+    font-size: 28px;
+    line-height: 37px;
+  }
+
+  .part4 p {
+    margin-top: 21px;
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .part1 div, .part3 div {
+    top: 105px;
+    width: 410px;
+    left: 190px;
+  }
+
+  .part2 div {
+    top: 105px;
+    width: 410px;
+    right: 190px;
+  }
+
+
+  .part4center {
+    top: 132px;
+  }
+
+  .part1left figure {
+    width: 147px;
+    height: 14px;
+    margin-top: 100px;
+    margin-left: -40px;
+  }
+
+  .part2right figure {
+    width: 147px;
+    height: 14px;
+    margin-top: 100px;
+    margin-left: 303px;
+  }
+
+  .part3left figure {
+    width: 147px;
+    height: 14px;
+    margin-top: 100px;
+    margin-left: -40px;
+  }
+
+  .part4center nav {
+    margin-top: 50px;
+  }
+
+  .part4center nav a {
+    margin: 0 6px;
+  }
+
+  .part1right {
+    top: 85px;
+    right: 0;
+    width: 521px;
+    height: 470px;
+  }
+
+  .part2left {
+    top: 70px;
+    left: 148px;
+    width: 380px;
+    height: 478px;
+  }
+
+  .part3right {
+    top: 72px;
+    right: -444px;
+    width: 960px;
+    height: 555px;
+  }
+}
+
+
+@media screen and (max-width: 910px) {
+
+  .part1, .part2, .part3, .part4 {
+    width: 910px;
+    height: 1024px;
+  }
+
+  .part1 h2, .part2 h2, .part3 h2 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  .part1 p, .part2 p, .part3 p {
+    margin-top: 21px;
+    font-size: 26px;
+    line-height: 38px;
+  }
+
+  .part4 h2 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  .part4 p {
+    margin-top: 35px;
+  }
+
+  .part1 div, .part2 div, .part3 div  {
+    top: 90px;
+    width: 580px;
+    left: 165px;
+  }
+
+
+  .part4center {
+    top: 260px;
+  }
+
+  div figure {
+    width: 210px;
+    height: 20px;
+    margin-top: 50px;
+  }
+
+  .part1left figure,
+  .part2right figure {
+    margin-left: -60px;
+  }
+
+  .part3left figure {
+    margin-left: 430px;
+  }
+
+  .part4center nav {
+    margin-top: 130px;
+  }
+
+  .part4center nav a {
+    margin: 0 10px;
+  }
+
+  .part1right {
+    top: 400px;
+    right: -34px;
+    width: 621px;
+    height: 560px;
+  }
+
+  .part2left {
+    top: 455px;
+    left: 333px;
+    width: 434px;
+    height: 543px;
+  }
+
+  .part3right {
+    top: 490px;
+    bottom: 0;
+    right: -30px;
+    width: 836px;
+    height: 483px;
+  }
+}
+
+@media all and (max-width: 740px) {
+
+  br {
+  display: none;
+  }
+
+  .part1, .part2, .part4, .part3 {
+    width: 740px;
+    height: 830px;
+  }
+
+
+  .part1 h2, .part2 h2, .part3 h2, .part4 h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .part1 p, .part2 p, .part3 p, .part4 p {
+    margin-top: 21px;
+    font-size: 30px;
+    line-height: 42px;
+  }
+
+
+  .part1 div, .part2 div, .part3 div  {
+    top: 90px;
+    width: 640px;
+    left: 52px;
+  }
+
+
+  .part4center {
+    top: 215px;
+    width: 644px;
+  }
+
+  div figure {
+    width: 210px;
+    height: 20px;
+    margin-top: 50px;
+  }
+
+  .part1left figure,
+  .part2right figure {
+    margin-left: 0px;
+  }
+
+  .part3left figure {
+    margin-left: 430px;
+  }
+
+  .part4center nav {
+    margin-top: 100px;
+  }
+
+  .part4center nav a {
+    margin: 0 10px;
+  }
+
+  .part1right {
+    top: 430px;
+    right: 0px;
+    width: 450px;
+    height: 405px;
+  }
+
+  .part2left {
+    top: 470px;
+    left: 404px;
+    width: 287px;
+    height: 361px;
+  }
+
+  .part3right {
+    top: 500px;
+    bottom: 50;
+    right: 59px;
+    width: 628px;
+    height: 349px;
+  }
+
+}

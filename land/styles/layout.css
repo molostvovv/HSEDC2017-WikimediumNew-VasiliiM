@@ -1,0 +1,156 @@
+section {
+  width: 1440px;
+  height: 800px;
+  position: relative;
+}
+.all {
+  width: 1440px;
+  height: 3200px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+  background-color: white;
+}
+
+p {
+    font-size: 26px;
+    line-height: 38px;
+}
+
+.firstL {
+  margin-top: 21px;
+}
+
+h2 {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 36px;
+    line-height: 46px;
+}
+
+.menubar {
+  position: fixed;
+  top: 0px;
+  max-width: 1440px;
+  width: 100%;
+  height: 50px;
+  background-repeat: no-repeat;
+  z-index: 2;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+}
+
+.logo {
+  position: absolute;
+  top: 13px;
+  width: 180px;
+  height: 16px;
+  background-image: url(../img/logo.svg);
+
+}
+
+.menubar a {
+  position: absolute;
+  font-size: 14px;
+  line-height: 50px;
+  color: rgba(0,0,0,.2);
+  width: 180px;
+  height: 20px;
+  right: 0;
+
+}
+
+.pattern {
+  position: relative;
+  background-image: url(../img/pattern.svg);
+  background-repeat: no-repeat;
+  height: 25px;
+}
+
+.textblock {
+  position: absolute;
+  margin-top: 147px;
+  width: 580px;
+  /* font-family: 'Helvetica' */
+}
+
+
+.second .textblock {
+  right: 160px;
+}
+
+.first .textblock {
+  left: 160px;
+}
+
+.last .textblock {
+ text-align: center;
+ width: 100%;
+
+}
+
+
+/* .img {
+  position: absolute;
+  background-size: cover;
+} */
+
+.img {
+  position: absolute;
+  height: 660px;
+  width: 732px;
+  top: 115px;
+  right: 0;
+  background-repeat: no-repeat;
+}
+
+#img1 {
+  right: 0px;
+  background-image: url(../img/1st.jpg);
+}
+
+#img2 {
+  background-image: url(../img/2nd.jpg);
+  top: 97px;
+  left: 100px;
+  width: 532px;
+  height: 670px;
+}
+
+#img3 {
+  background-image: url(../img/last.jpg);
+  right: 0px;
+}
+
+.button {
+  margin-top: 27px;
+  display: inline-block;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+}
+
+.right {
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 17px;
+  text-align: center;
+  background-color: #64f364;
+  border-color: #00C000;
+  color: white;
+  font-family: 'PT Sans Caption', sans-serif;
+  text-decoration: none;
+}
+
+.left {
+  width: 250px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 15px;
+  text-align: center;
+  background-color: white;
+  border-color: rgba(0,0,0,.2);
+  color: rgba(0,0,0,.6);
+  text-decoration: none;
+  font-family: 'Pt Sans'
+}

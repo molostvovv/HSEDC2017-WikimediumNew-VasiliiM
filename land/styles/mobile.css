@@ -1,0 +1,20 @@
+@media (max-width: 767px) {
+
+  .img {
+    width: 100% inherit;
+  }
+  .first .textblock {
+    left: 30px;
+  }
+  .second .textblock {
+    right: 30px;
+  }
+.last .textblock {
+  position: static;
+  
+  justify-content: flex-start;
+  width: auto;
+  text-align: left;
+}
+
+}
