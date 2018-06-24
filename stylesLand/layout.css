@@ -43,7 +43,7 @@ h2 {
   top: 13px;
   width: 180px;
   height: 16px;
-  background-image: url(../img/logo.svg);
+  background-image: url(../imgLand/logo.svg);
 
 }
 
@@ -60,7 +60,7 @@ h2 {
 
 .pattern {
   position: relative;
-  background-image: url(../img/pattern.svg);
+  background-image: url(../imgLand/pattern.svg);
   background-repeat: no-repeat;
   height: 25px;
 }
@@ -104,11 +104,11 @@ h2 {
 
 #img1 {
   right: 0px;
-  background-image: url(../img/1st.jpg);
+  background-image: url(../imgLand/1st.jpg);
 }
 
 #img2 {
-  background-image: url(../img/2nd.jpg);
+  background-image: url(../imgLand/2nd.jpg);
   top: 97px;
   left: 100px;
   width: 532px;
@@ -116,7 +116,7 @@ h2 {
 }
 
 #img3 {
-  background-image: url(../img/last.jpg);
+  background-image: url(../imgLand/last.jpg);
   right: 0px;
 }
 
